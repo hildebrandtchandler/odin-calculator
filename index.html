@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="calculatorFrame">
+        <input type="number" id="numEntry"></input>
+            <div id="theButtons">
+                <!-- I opted to list the buttons in numerical order
+                and use row-reverse to put them in NumPad order -->
+                <div id="oneThruNine">
+                    <div id="bottomRow">
+                        <button id="1Button" class="numButton">1</button>
+                        <button id="2Button" class="numButton">2</button>
+                        <button id="3Button" class="numButton">3</button>
+                    </div>
+                    <div id="middleRow ">
+                        <button id="4Button" class="numButton">4</button>
+                        <button id="5Button" class="numButton">5</button>
+                        <button id="6Button" class="numButton">6</button>
+                    </div>
+                    <div id="topRow">
+                        <button id="7Button" class="numButton">7</button>
+                        <button id="8Button" class="numButton">8</button>
+                        <button id="9Button" class="numButton">9</button>
+                    </div>
+                </div>
+                <div id="backZero">
+                    <button id="backspace">&#9003;</button>
+                    <button id="0Button">0</button>
+                </div>
+                <div id="functionButtons">
+                    <button id="plusButton" class="functButton">+</button>
+                    <button id="minusButton" class="functButton">-</button>
+                    <button id="multButton" class="functButton">x</button>
+                    <button id="divButton" class="functButton">&#247;</button>
+                    <button id="equalsButton">=</button>
+                </div>
+            </div>
+    </div>
+    <script src="./js.js"></script>
+</body>
+</html>

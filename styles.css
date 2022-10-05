@@ -1,0 +1,40 @@
+html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculatorFrame {
+    border: 10px;
+    border-style: outset;
+    border-color: darkgray;
+    background-color: lightgrey;
+}
+
+#theButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#oneThruNine {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#backZero {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#functionButtons {
+    display: flex;
+    flex-direction: column;
+}
